@@ -11,3 +11,5 @@ connectionResult.on("error", () => {
 connectionResult.on("connected", () => {
   console.log("Connected to the database");
 });
+
+//configure all your file , dont follow mine 
