@@ -39,6 +39,7 @@ router.post("/register", async (req, res) => {
 //login user account
 router.post("/login", async (req, res) => {
   console.log(req.body);
+  const {email} = req.body
   try {
     //check if user exists
     let user = await User.findOne({ email });
